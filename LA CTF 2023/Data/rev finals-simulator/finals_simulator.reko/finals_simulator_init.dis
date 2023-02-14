@@ -1,0 +1,26 @@
+// _init
+// Return size: 8
+define _init
+_init_entry:
+	rsp = fp
+	Top = 0<i8>
+	// succ:  l0000000000001000
+l0000000000001000:
+	rsp = rsp - 8<64>
+	SCZO = cond(rsp)
+	rax = __gmon_start__
+	SZO = cond(rax & rax)
+	C = false
+	branch Test(EQ,Z) l0000000000001012
+	// succ:  l0000000000001010 l0000000000001012
+l0000000000001010:
+	call __gmon_start__ (retsize: 8;)
+	// succ:  l0000000000001012
+l0000000000001012:
+	rsp = rsp + 8<64>
+	SCZO = cond(rsp)
+	return
+	// succ:  _init_exit
+_init_exit:
+
+

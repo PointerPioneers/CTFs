@@ -1,0 +1,8 @@
+git clone git://lac.tf:31152/new-challenge.git
+
+9418: port times out
+
+
+just commit with the author and mail below and push
+
+git commit --no-gpg-sign -m "AAAAA" --allow-empty --author "Benson Liu <bensonhliu@lac.tf>"

