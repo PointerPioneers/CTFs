@@ -20,6 +20,6 @@ Despite this, we we're very satisfied with [our overall result](../README.md).
 ## Write-ups
 
 Here's a list of the write-ups we made:
-- none
+- [`crypto/ravin-cryptosystem`](<crypto ravin-cryptosystem/README.md>)
 
 <!-- TODO if write-up for metaverse, change text and insert reference -->
