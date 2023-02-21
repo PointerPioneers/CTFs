@@ -2,6 +2,8 @@
 
 This folder contains some write-ups of challenges we solved during LA CTF 2023.
 
+[Click here](#write-ups-1) if you want to go to the write-ups directly.
+
 ## Introduction
 
 Before getting into the write-ups, let's give some background information: we're a team of 3 students at Eindhoven University of Technology.

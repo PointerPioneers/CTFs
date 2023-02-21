@@ -13,6 +13,7 @@ In total, we solved 23/46 challenges, scoring us 5659 points which placed us in 
 Stuff:
 - challenges and some solutions at [uclaacm/lactf-archive](https://github.com/uclaacm/lactf-archive/tree/main/2023)
 - code, notes and other files used during the CTF in the [Data](Data) folder
+- write-ups of some challenges can be found at [Write-ups](Write-ups/README.md)
 - screenshot of the list of challenges at [challenges.png](challenges.png)
 - screenshot of our profile at the final standing at [profile.png](profile.png)
 - screenshot of our profile at our highest standing at [highest placement.png](<highest placement.png>)
