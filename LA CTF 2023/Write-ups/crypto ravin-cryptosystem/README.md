@@ -15,10 +15,10 @@ Looking up the function used for generating prime numbers, we found that the `p`
 Because of this, we started by trying to factorise these numbers. We looked up how to do this, and found our result on [dCode](https://www.dcode.fr/prime-factors-decomposition), which gaves us `p = 861346721469213227608792923571` and `q = 1157379696919172022755244871343` within a couple seconds (we did of course quickly verify these values in a Python shell).
 
 Because of our background in cryptography, we knew how to attack RSA in this scenario: to perform RSA decryption, you need the ciphertext `c`, the private key `d` and the modulus `n`. Of these, only `d` was still unknown to us. However, since we know `p` and `q`, we can use the same process for computing `d` as is done during RSA key generation:
-- compute $\lambda(n) = \text{lcm}(p - 1, q - 1)$
-- compute $d \equiv e^{-1} \mod \lambda(n)$
+- compute $\varphi(n) = (p - 1)(q - 1)$
+- compute $d \equiv e^{-1} \mod \varphi(n)$
 
-Doing this, we got `lambda_n = 4984526037181802434977493939077938522782478662047723446654703` and `d = 331272435533348470112882380961103941740259152240948841787833`. With this, we can perform RSA decryption using $m \equiv c^d \mod n$, from which we got `m = 736145502400954707780384614530985023141828296658621567180940`. 
+Doing this, we got `phi_n = 996905207436360486995498787815587704556495732409544689330940` and `d = 331272435533348470112882380961103941740259152240948841787833`. With this, we can perform RSA decryption using $m \equiv c^d \mod n$, from which we got `m = 736145502400954707780384614530985023141828296658621567180940`. 
 
 Then, we converted this message back to text, but this did not give us the flag we expected to get. We checked our approach for mistakes, and we verified some of the numbers we calculated throughout the computation. This didn't give us any clarity, so we looked deeper at the code.
 
