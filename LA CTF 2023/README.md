@@ -10,6 +10,8 @@ The categories, and our solves in them, were:
 
 In total, we solved 23/46 challenges, scoring us 5659 points which placed us in 101st place in the Open (online) divison, or 102nd in all divisions.
 
+On CTFtime, we got 9.123 points for this CTF. After the weight was determined, this placed us at number 577 in the world, and number 4 in the Netherlands (for 2023, standings as of 28-02-2023).
+
 Stuff:
 - challenges and some solutions at [uclaacm/lactf-archive](https://github.com/uclaacm/lactf-archive/tree/main/2023)
 - code, notes and other files used during the CTF in the [Data](Data) folder
@@ -18,3 +20,4 @@ Stuff:
 - screenshot of our profile at the final standing at [profile.png](profile.png)
 - screenshot of our profile at our highest standing at [highest placement.png](<highest placement.png>)
 - screenshot of the scoreboard at [scoreboard1.png](scoreboard1.png) and [scoreboard2.png](scoreboard2.png) for pages 1 and 2, respectively
+- screenshot of the leaderboard of the Netherlands in 2023 on CTFtime at 28-02-2023 at [CTFtime NL stats 2023 right after.png](<CTFtime NL stats 2023 right after.png>)
