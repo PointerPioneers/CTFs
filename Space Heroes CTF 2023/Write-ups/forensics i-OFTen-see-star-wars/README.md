@@ -23,6 +23,6 @@ A quick search gives us the following hints:
 ## Solution
 
 We first downloaded the original Aurebesh font files and opened one in a hex editor. We found that `magicNumber` is on line 0140 and `achVendID` can be found on line 01F0 as shown here:
-!(original-aurebesh.png)
+![screenshot from original font file](<original-aurebesh.png>)
 
 Afterwards, parts of the flag can be retrieved from these 2 lines in 8 given font files and reassembled to get `shctf{th3r3_1s_always_s0me_h0p3_4r0und}`.
