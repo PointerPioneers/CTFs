@@ -7,9 +7,10 @@ Flag format: shctf{}
 
 File given: Aurebesh-Patched.zip
 
-Category: forensics
+Category: forensics. 430 points. 43 solves
 
 Author: [teeman22](https://github.com/tylzars)
+
 
 ## Observations
 
