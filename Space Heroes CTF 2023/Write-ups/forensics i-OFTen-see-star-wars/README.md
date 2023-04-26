@@ -31,3 +31,6 @@ Afterward, parts of the flag can be retrieved from these 2 lines in 8 given font
 
 ## Reflection
 This was a rather straightforward challenge since the description already gave away a lot of information on where to find the flag. However, for some (unknown) reasons, my brain (one of the solvers') didn't register that parts of the flag are scattered among the given files. To make the matter worse, I used the 7th file to compare, which resulted in seemingly random letters on lines 0140 and 01F0. So my train of thought was to correct these hexadecimal back to the original values then run the font file and there would be a pop-up or something similar. But unfortunately, that is not how a font file works (should have realized that earlier). I then used the Hint: *The font files are ordered starting at Aurberesh-1 to Aurberesh-8. The flag should be reassembled in this order.* and immediately figured out my misunderstanding.
+
+## Another solution
+A quicker solution is to use the Linux tool `ttx` to output all information of the font file. Details and credit can be found in the write-up from [am3lia](https://ctftime.org/writeup/36845).
