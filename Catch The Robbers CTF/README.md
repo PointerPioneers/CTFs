@@ -11,5 +11,5 @@ The categories, and our solves, were:
 In total, we solved 26 challenges, scoring 10161 points which placed us in 3rd place in the overall ranking.
 
 Stuff:
-- code, notes and other files used during the CTF in the [Data](Data) folder
+- code, notes and other files used during the CTF in the [Source code](sc) folder
 - write-ups of some challenges can be found at [Write-ups](Write-ups/README.md)
